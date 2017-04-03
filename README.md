@@ -1,4 +1,4 @@
-# Monnaie
+# Cashier
 
 Playing with Go
 
