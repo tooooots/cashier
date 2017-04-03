@@ -1,7 +1,6 @@
 package cashier
 
 import (
-	"fmt"
 	"sort"
 )
 
@@ -10,7 +9,6 @@ func Cashier(remaining int) (refund map[int]int) {
 	// slice of available coins, sorted from large to small
 	coins := []int{5, 2, 1, 10, 20, 50}
 	sort.Sort(sort.Reverse(sort.IntSlice(coins)))
-	fmt.Printf("available coins: %v \n", coins)
 
 	// construct a map of coin=quantity
 	refund = make(map[int]int)
